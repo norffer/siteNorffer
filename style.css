@@ -1,0 +1,89 @@
+body {
+    background-color: rgb(36, 36, 36);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url("media/73847693-branco-gato-saltando-atraves-hula-aro-dentro-espaco-lofi-ilustracao-contorno-caprichoso-celestial-gatinha-pulando-atraves-portal-ficcao-cientifica-2d-tinta-linear-plano-lo-fi-desenho-linha-arte-estetico-pap.jpg");
+    background-size: cover;
+
+}
+
+
+h1{
+    display: inline-block;
+    color: aliceblue;
+    padding: 10px 10px;
+    background-color: rgb(26, 26, 26);}
+
+a{
+    display: inline-block;
+    margin: 10px;
+    text-decoration: none;
+    color: aliceblue;
+    padding: 10px 20px;
+    background-color: rgb(26, 26, 26);
+    border-radius: 10px;
+
+} 
+
+a:hover {
+    background-color: rgb(50, 50, 50);
+    transform: scale(1.3);
+    transition: 0.3s ease;
+}
+
+
+p{
+    text-align: center;
+    font-size: large;
+    background-color: rgb(26, 26, 26);
+    color: aliceblue;
+    border-radius: 10px;
+}
+
+div{
+    text-align: center;
+}
+
+img{
+    border-radius: 75px;
+    padding: 30px 30px;
+    width: 200px
+}
+
+button{
+   display: inline-block;
+    margin: 10px;
+    text-decoration: none;
+    color: aliceblue;
+    padding: 10px 20px;
+    background-color: rgb(26, 26, 26);
+    border-radius: 10px;
+    border: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+button:hover{
+    background-color: rgb(50, 50, 50);
+    transform: scale(1.3);
+    transition: 0.3s ease;
+}
+
+.main{
+    background-color: transparent;
+    backdrop-filter: blur(3px);
+    width: 400px;
+    height: 500px;
+    border: 5px solid rgb(41, 41, 41);
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
